@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+google font import
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+font family
+*/
+
+
+/* Header part starts */
+header {
+  width: 100%;
+  background-image: url(../image/main_banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 105vh;
+}
+
+header .header_part .row {
+  padding-top: 35px;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+.header_part .navbar-brand {
+  width: 100%;
+}
+
+.header_part .upper_navbar {
+  display: none;
+}
+
+.delivery {
+  text-align: right;
+}
+
+.delivery h6 {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 3px;
+}
+
+.express_side a {
+  padding: 10px 0px 0px 40px !important;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: #3d2514 !important;
+}
+
+.title {
+  height: 68vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.title p {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3d2514 !important;
+  padding: 5px 10px;
+  border: 2px dashed #3d2514;
+  display: inline-block;
+}
+
+.title h1 {
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 85px;
+  text-shadow: 3px 3px rgba(255, 255, 255, 0.5);
+  letter-spacing: 4px;
+  color: #3d2514 !important;
+  margin-bottom: 0px;
+}
+
+.title h2 {
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;
+  text-shadow: 3px 3px rgba(255, 255, 255, 0.5);
+  letter-spacing: 3px;
+  color: #3d2514 !important;
+}
+
+/* Header part ends */
+
+/* burger gallery starts */
+.burger_gallery {
+  width: 100%;
+  padding: 70px 0 0;
+}
+
+.burger_content h2 {
+  font-size: 38px;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.burger_gallery .upper h2 {
+  width: 55%;
+}
+
+.burger_content h4 {
+  font-size: 23px;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.post {
+  position: relative;
+}
+
+.burger_content {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.bottom {
+  margin-top: 32px;
+}
+
+.burger_gallery button {
+  padding: 6px 15px 3px 15px;
+  background: #ffc045;
+  border: 1px solid #ffc045;
+  font-family: 'Bebas Neue', cursive;
+  color: #3d2514;
+}
+
+/* burger gallery ends */
+
+
+
+/* Burger type starts */
+.burger_type {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.burger_type h1 {
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: uppercase;
+  font-size: 52px;
+  color: #3d2514;
+  margin-bottom: 20px;
+}
+
+.burgburger_typeer_type p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #3d2514;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.burger_type img {
+  padding-bottom: 20px;
+}
+
+.burger_type .first,
+.third {
+  padding-top: 63px;
+}
+
+.burger_type_title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 37px;
+  color: #3d2514;
+}
+
+.burger_type_subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #3d2514;
+  line-height: 30px;
+}
+
+
+.btn-download {
+  color: #fff;
+  background: #ce1111;
+  padding: 12px 19px;
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.btn-download:hover {
+  color: #fff;
+  background: #691f1f;
+  border: 1px solid #fff;
+  transition: .5s all ease-in-out;
+}
+
+/* Burger type ends */
+
+/* Event section starts */
+.events {}
+
+.events h6 {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #3d3d3d;
+  padding: 20px 0 0 20px;
+}
+
+.events h1 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #3d2514;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 20px 0 0 20px;
+}
+
+.events p {
+  font-family: 'Montserrat', sans-serif;
+  color: #3d3d3d;
+  font-size: 18px;
+  padding: 20px 0 0 20px;
+}
+
+.events .glow {
+  padding: 24px;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.3);
+}
+
+.shadow {
+  box-shadow: 5px 10px 20px 2px #888888;
+}
+
+.owl-dots {
+  display: inline-block;
+  position: absolute;
+  bottom: 32px;
+  left: 23px;
+}
+
+.owl-dots .owl-dot span {
+  display: block;
+  background: #DDDDDD;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+
+
+.owl-dots .active span {
+  height: 15px;
+  width: 15px;
+  background: #FFC135;
+  border: transparent;
+}
+
+.owl-dots button:focus {
+  outline: none;
+}
+
+/* Event section ends */
+
+/* book-table section starts */
+.book-table {
+  /* width: 100%; */
+  background-image: url(../image/reservation.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 115vh;
+
+}
+
+.form-table {
+  padding-top: 200px;
+}
+
+.book-table h6 {
+  font-family: 'Bebas Neue', cursive;
+  color: #3d2514;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.book-table h1 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #3d2514;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.input {
+  padding: 15px 20px;
+  margin: 13px 9px;
+  width: 34%;
+  border: 1px solid #C0C0C0;
+  border-radius: 5px;
+}
+
+.button {
+  background: #ce1111;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #ce1111;
+}
+
+.button:hover {
+  color: #fff;
+  background: #691f1f;
+  border: 1px solid #fff;
+  transition: .5s all ease-in-out;
+}
+
+/* Footer section starts */
+footer {}
+
+.footer-img {
+  background-image: url(../image/footer_img.png);
+  width: 90%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 65vh;
+  margin-top: -79px;
+  padding-top: 1px;
+  margin-bottom: 40px;
+}
+
+.footer-img .container {
+  padding-top: 60px;
+}
+
+.footer-img .logo {
+  font-size: 10px;
+}
+
+.second_line {
+  padding: 70px 0px 130px 0px;
+  color: #fff;
+}
+
+.right_side {
+  text-align: left;
+}
+
+.right_side h6 {
+  padding-left: 10px;
+}
+
+.address_bar {
+  padding-left: 272px;
+}
+
+.address {
+  display: flex;
+}
+
+.address_bar h6 {
+  display: inline-block;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright h6 {
+  color: #fff;
+}
+
+.icons ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.icons li {
+  list-style: none;
+}
+
+.icons li a {
+  color: #000;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #fff;
+  list-style: none;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 100%
+}
+
+.icons a:hover {
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+  transition: .30s all ease-in-out;
+}
+
+/* Footer section ends */
